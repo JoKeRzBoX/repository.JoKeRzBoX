@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+  id="repository.JoKeRzBoX" 
+  name="JoKeRzBoX's Kodi Addons" 
+  version="1.0.0~alpha" 
+  provider-name="JoKeRzBoX">
+	<extension point="xbmc.addon.repository" 
+             name="JoKeRzBoX's Kodi Addon Public Repository">
+    <info compressed="false">https://raw.githubusercontent.com/JoKeRzBoX/repository.JoKeRzBoX/master/staging/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/JoKeRzBoX/repository.JoKeRzBoX/master/staging/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/JoKeRzBoX/repository.JoKeRzBoX/raw/master/repository-downloads/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository for JoKeRzBoX's Kodi Public Addons</summary>
+		<description>Download and install addons by JoKeRzBoX.</description>
+		<platform>all</platform>
+	</extension>
+</addon>

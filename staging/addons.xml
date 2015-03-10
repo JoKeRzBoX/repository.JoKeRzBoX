@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.tvestadao" name="TV Estadao"
+ version="1.0.0~alpha" provider-name="JoKeRzBoX">
+ <requires>
+  <import addon="script.module.parsedom" />
+  <import addon="xbmc.python" version="2.1" />
+ </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <summary lang="en">Video news from http://tv.estadao.com.br</summary>
+  <summary lang="pt">Video notivias do http://tv.estadao.com.br</summary>
+  <description lang="en">Watch Brazilian News from O Estado de S. Paulo newspaper's website as per video content publicly available at http://tv.estadao.com.br..
+  DISCLAIMER: The Author of this addon is not the owner nor responsible for the content provided by http://tv.estadao.com.br. This addon just provides with a convenient mean to retrieve the content they make freely available to the public in their website.
+  </description>
+  <description lang="pt">Assista a noticias em video do website http://tv.estadao.com.br do jornal O Estado de S. Paulo.
+  ATENCAO: O autor deste addon nao é responsavel pelo conteudo provido por http://tv.estadao.com.br. Este addon apenas prove uma forma conveniente de acessar o conteudo que eles disponibilizam gratuitament ao publico.</description>
+  <disclaimer lang="en">This addon is not sponsored nor related to OESP group</disclaimer>
+  <disclaimer lang="pt">Este addnon nao tem nenhum vinculo com o grupo OESP</disclaimer>
+  <platform>all</platform>
+  <language>pt</language>
+  <email></email>
+ </extension>
+</addon>
+
+<addon
+  id="repository.JoKeRzBoX"
+  name="JoKeRzBoX's Kodi Addons"
+  version="1.0.0~alpha"
+  provider-name="JoKeRzBoX">
+	<extension point="xbmc.addon.repository"
+             name="JoKeRzBoX's Kodi Addon Public Repository">
+    <info compressed="false">https://raw.githubusercontent.com/JoKeRzBoX/repository.JoKeRzBoX/master/staging/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/JoKeRzBoX/repository.JoKeRzBoX/master/staging/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/JoKeRzBoX/repository.JoKeRzBoX/raw/master/repository-downloads/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository for JoKeRzBoX's Kodi Public Addons</summary>
+		<description>Download and install addons by JoKeRzBoX.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

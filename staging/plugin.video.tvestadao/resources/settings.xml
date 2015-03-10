@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="30001">
+        <setting id="user_agent" type="text" label="30002" default="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36" />
+        <!--<setting id="thumbnail_size" type="enum" label="30003" values="66,100,300,500" default="300" />-->
+    </category>
+</settings>
